@@ -1,0 +1,39 @@
+#navbarNavDropdown{
+    display: flex;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #83b5bd;
+    height: 100vh;
+  }
+  #login {
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    
+  }
+  #login>ul{
+    list-style: none;
+  }
+
+  .names{
+      margin-top: 10vh;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: space-around;
+      row-gap: 10vh;
+      
+  }
+  .aboutUs{
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 25vh;
+      text-align: center;
+  }
