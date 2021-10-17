@@ -15,7 +15,7 @@
       integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -78,66 +78,172 @@
           </div>
         </nav>
       </div>
-
       <div class="names">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://m.media-amazon.com/images/I/51d9d8sNarL._AC_SL1200_.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Anker Portable charger</h5>
-          <p class="card-text">Click below to view more details.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://m.media-amazon.com/images/I/51d9d8sNarL._AC_SL1200_.jpg"
+            alt="Card image cap"  onmouseover="animateSomething(this)"
+            data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="slide-out-right"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Anker Portable charger</h5>
+            <p class="card-text">Click below to view more details.</p>
+            <div class="buying">
+              <p><span>150</span> Riyals</p>
+              <a href="#" class="btn btn-primary" onclick="addToCart(this)"
+                >Add to cart</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary"
+                onclick="moveToProductScreen(this, this.parentElement.parentElement.children[0].innerHTML, this.parentElement.parentElement.parentElement.children[0].src, this.parentElement.children[0].children[0].innerHTML)"
+                >View</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://m.media-amazon.com/images/I/71aCkD7IRXL._AC_SL1500_.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Samsung Galaxy Z Fold 2</h5>
+            <p class="card-text">Click below to view more details.</p>
+            <div class="buying">
+              <p><span>7199</span> Riyals</p>
+              <a href="#" class="btn btn-primary" onclick="addToCart(this)"
+                >Add to cart</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary"
+                onclick="moveToProductScreen(this, this.parentElement.parentElement.children[0].innerHTML, this.parentElement.parentElement.parentElement.children[0].src, this.parentElement.children[0].children[0].innerHTML)"
+                >View</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://m.media-amazon.com/images/I/91MXLpouhoL._AC_SL1500_.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Laptop Dell XPS13</h5>
+            <p class="card-text">Click below to view more details.</p>
+            <div class="buying">
+              <p><span>3999</span> Riyals</p>
+              <a href="#" class="btn btn-primary" onclick="addToCart(this)"
+                >Add to cart</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary"
+                onclick="moveToProductScreen(this, this.parentElement.parentElement.children[0].innerHTML, this.parentElement.parentElement.parentElement.children[0].src, this.parentElement.children[0].children[0].innerHTML)"
+                >View</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://m.media-amazon.com/images/I/81pCpKFjBZL._AC_SL1500_.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Headset SteelSeries Arctis 7</h5>
+            <p class="card-text">Click below to view more details.</p>
+            <div class="buying">
+              <p><span>350</span> Riyals</p>
+              <a href="#" class="btn btn-primary" onclick="addToCart(this)"
+                >Add to cart</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary"
+                onclick="moveToProductScreen(this, this.parentElement.parentElement.children[0].innerHTML, this.parentElement.parentElement.parentElement.children[0].src, this.parentElement.children[0].children[0].innerHTML)"
+                >View</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem" >
+          <img
+            class="card-img-top"
+            src="https://m.media-amazon.com/images/I/81LmL94PUvS._AC_SL1500_.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Apple iPhone 11 Pro Max</h5>
+            <p class="card-text">Click below to view more details.</p>
+            <div class="buying">
+              <p><span>5199</span> Riyals</p>
+              <a href="#" class="btn btn-primary" onclick="addToCart(this)"
+                >Add to cart</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary"
+                onclick="moveToProductScreen(this, this.parentElement.parentElement.children[0].innerHTML, this.parentElement.parentElement.parentElement.children[0].src, this.parentElement.children[0].children[0].innerHTML)"
+                >View</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://m.media-amazon.com/images/I/61bLefD79-L._AC_SL1020_.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Samsung Galaxy S21 Ultra 5G</h5>
+            <p class="card-text">Click below to view more details.</p>
+            <div class="buying">
+              <p><span>4999</span> Riyals</p>
+              <a href="#" class="btn btn-primary" onclick="addToCart(this)"
+                >Add to cart</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary"
+                onclick="moveToProductScreen(this, this.parentElement.parentElement.children[0].innerHTML, this.parentElement.parentElement.parentElement.children[0].src, this.parentElement.children[0].children[0].innerHTML)"
+                >View</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://m.media-amazon.com/images/I/71hrx6vNjPL._AC_SL1000_.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Lenovo Laptop shoulder bag T210</h5>
+            <p class="card-text">Click below to view more details.</p>
+            <div class="buying">
+              <p><span>80</span> Riyals</p>
+              <a href="#" class="btn btn-primary" onclick="addToCart(this)"
+                >Add to cart</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary"
+                onclick="moveToProductScreen(this, this.parentElement.parentElement.children[0].innerHTML, this.parentElement.parentElement.parentElement.children[0].src, this.parentElement.children[0].children[0].innerHTML)"
+                >View</a
+              >
+            </div>
+          </div>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://m.media-amazon.com/images/I/71aCkD7IRXL._AC_SL1500_.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Samsung Galaxy Z Fold 2</h5>
-          <p class="card-text">Click below to view more details.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://m.media-amazon.com/images/I/91MXLpouhoL._AC_SL1500_.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Laptop Dell XPS13</h5>
-          <p class="card-text">Click below to view more details.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://m.media-amazon.com/images/I/81pCpKFjBZL._AC_SL1500_.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Headset SteelSeries Arctis 7</h5>
-          <p class="card-text">Click below to view more details.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://m.media-amazon.com/images/I/81LmL94PUvS._AC_SL1500_.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Apple iPhone 11 Pro Max</h5>
-          <p class="card-text">Click below to view more details.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://m.media-amazon.com/images/I/61bLefD79-L._AC_SL1020_.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Samsung Galaxy S21 Ultra 5G</h5>
-          <p class="card-text">Click below to view more details.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://m.media-amazon.com/images/I/71hrx6vNjPL._AC_SL1000_.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Lenovo Laptop shoulder bag T210</h5>
-          <p class="card-text">Click below to view more details.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-</div>
-
     </div>
+    <script type="text/javascript" src="main.js">
+</script>
   </body>
 </html>
